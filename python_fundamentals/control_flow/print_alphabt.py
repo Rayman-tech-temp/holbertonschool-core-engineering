@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
-alphabt = "abcdfghijklmnoprstuvwxyz"
 
-print(alphabt)
+for char in range(ord('a'), ord('z')):
+
+    if char != ord('q') and char != ord('e'):
+        print(chr(char), end='')
