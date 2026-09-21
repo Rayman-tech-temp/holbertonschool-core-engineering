@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-alphabt = 'a'
-
-for char in range(ord('b'), ord('{')):
+newchr = '{0}'
+alphabt = ''
+for char in range(ord('a'), ord('z') + 1):
 
     if char != ord('q') and char != ord('e'):
-        alphabt = alphabt + chr(char)
+        alphabt = alphabt + newchr.format(chr(char))
 
-print(alphabt.format(''))
+print(alphabt)
