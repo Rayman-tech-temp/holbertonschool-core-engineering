@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 number = __import__('random').randint(-10000, 10000)
-if number > 0:
+if number >= 0:
     digit = number % 10
 if number < 0:
     digit = number % -10
