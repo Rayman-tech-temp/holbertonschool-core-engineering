@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
+alphabt = 'a'
 
-
-for char in range(ord('a'), ord('z')):
+for char in range(ord('b'), ord('z')):
 
     if char != ord('q') and char != ord('e'):
-        print(chr(char), end='')
+        alphabt = alphabt + chr(char)
+
+print(alphabt)
