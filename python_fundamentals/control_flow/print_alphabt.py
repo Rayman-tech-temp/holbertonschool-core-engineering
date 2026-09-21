@@ -6,4 +6,4 @@ for char in range(ord('b'), ord('z')):
     if char != ord('q') and char != ord('e'):
         alphabt = alphabt + chr(char)
 
-print(alphabt)
+print(alphabt.format('q'))
