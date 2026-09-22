@@ -7,6 +7,6 @@ def print_last_digit(number):
     elif number <= 0:
         digit = (number * -1) % 10
     else:
-        digit = None
+        digit = 0
 
     print(digit, end='')
