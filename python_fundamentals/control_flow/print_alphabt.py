@@ -10,4 +10,4 @@ for char in range(ord('a'), ord('z') + 1):
         else:
             alphabt = alphabt + newchr.format(chr(char))
 
-print(alphabt)
+print(alphabt, end='')
