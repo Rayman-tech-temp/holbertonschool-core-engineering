@@ -7,13 +7,13 @@ b = 5
 if __name__ == "__main__":
     txt = "{0} + {1} = {2}\n"
     c = add(a, b)
-    print(txt.format(c))
+    print(txt.format(a, b, c))
     txt = "{0} - {1} = {2}\n"
     c = sub(a, b)
-    print(txt.format(c))
-    txt = "{0} * {1} = {2}\n"
-    c = mul(a, b)
-    print(txt.format(c))
+    print(txt.format((a, b, c))
     txt = "{0} / {1} = {2}\n"
     c = div(a, b)
-    print(txt.foramt(c))
+    print(txt.foramt((a, b, c))
+    txt = "{0} * {1} = {2}\n"
+    c = mul(a, b)
+    print(txt.format((a, b, c))
