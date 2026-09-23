@@ -6,5 +6,5 @@ b = 2
 c = add(a, b)
 
 if __name__ == "__main__":
-    txt = "{a} + {b} = {c}"
+    txt = "{0} + {1} = {2}"
     print(txt.format(a, b, c))
