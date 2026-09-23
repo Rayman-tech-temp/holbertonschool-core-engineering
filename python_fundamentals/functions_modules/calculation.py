@@ -3,14 +3,17 @@
 from calculator_1 import add, sub, div, mul
 a = 10
 b = 5
-txt = "{0}\n"
 
 if __name__ == "__main__":
+    txt = "{0} + {1} = {2}\n"
     c = add(a, b)
     print(txt.format(c))
+    txt = "{0} - {1} = {2}\n"
     c = sub(a, b)
     print(txt.format(c))
+    txt = "{0} * {1} = {2}\n"
     c = mul(a, b)
     print(txt.format(c))
+    txt = "{0} / {1} = {2}\n"
     c = div(a, b)
     print(txt.foramt(c))
