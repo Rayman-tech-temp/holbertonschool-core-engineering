@@ -13,10 +13,10 @@ if __name__ == "__main__":
     c = sub(a, b)
     print(txt.format(a, b, c))
 
-    txt = "{0} \* {1} = {2}\n"
+    txt = "{0} * {1} = {2}\n"
     c = mul(a, b)
     print(txt.format(a, b, c))
 
-    txt = "{0} \/ {1} = {2}\n"
+    txt = "{0} / {1} = {2}\n"
     c = div(a, b)
     print(txt.foramt(a, b, c))
