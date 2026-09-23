@@ -7,7 +7,7 @@ def add(a, b):
 
 def div(a, b):
     if __name__ == "__main__":
-        output = a / b
+        output = a * b
         return (output)
 
 def sub(a, b):
@@ -17,5 +17,5 @@ def sub(a, b):
 
 def mul(a, b):
     if __name__ == "__main__":
-        output = a * b
+        output = a / b
         return (output)
