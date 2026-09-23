@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 
-import add_0
+from add_0 import add
 a = 1
 b = 2
-c = add_0.add(a, b)
+c = add(a, b)
 
 if __name__ == "__main__":
     txt = "{a} + {b} = {c}"
