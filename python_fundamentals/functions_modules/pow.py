@@ -7,5 +7,4 @@ def pow(a, b):
         for i in range(0, b):
             answer = answer * a
 
-    print(answer, end='')
     return (answer)
