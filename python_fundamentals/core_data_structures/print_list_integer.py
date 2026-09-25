@@ -5,5 +5,3 @@ def print_list_integer(a_list):
     if a_list:
         for i in a_list:
             print(txt.format(i))
-    else:
-        print(a_list)
