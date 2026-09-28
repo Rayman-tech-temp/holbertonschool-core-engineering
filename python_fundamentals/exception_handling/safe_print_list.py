@@ -16,8 +16,7 @@ def safe_print_list(my_list=[], x=0):
 
     except IndexError:
         if x == 0 and size != 0:
-            print(my_list[x])
-            return(my_list[x])
+            return (0)
         elif i == size and size != 0:
             print(output)
             return (my_list[i - 1])
