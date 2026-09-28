@@ -10,7 +10,7 @@ def safe_print_list(my_list=[], x=0):
         print(output)
         return (my_list[x])
     except IndexError:
-        if x == i:
+        if x - 1 == i:
             return (my_list[x - 1])
         else:
             print("outside of list bounds")
