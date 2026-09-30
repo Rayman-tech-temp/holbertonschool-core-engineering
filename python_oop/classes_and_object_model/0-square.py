@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
 
-# a class that reflects the shape below
+# Class that is commented
 class Square:
-    #attribute and methods for a square
+    attribute = 0
