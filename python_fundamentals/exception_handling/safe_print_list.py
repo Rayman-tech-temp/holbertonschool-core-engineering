@@ -10,7 +10,7 @@ def safe_print_list(my_list=[], x=0):
             size = i
         for i in range(0, x):
             output = output + txt.format(my_list[i])
-            print(output)
+        print(output)
         return (my_list[i])
 
     except IndexError:
