@@ -12,8 +12,7 @@ def safe_print_list_integers(my_list=[], x=0):
             print("{:d}".format(my_list[i]), end="")
             count = count + 1
 
-        if x != 0:
-            print("\n", end="")
+        print("\n", end="")
         return (count)
 
     except ValueError:
