@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+"""
+Base Geometry class - a lot shapes will become this...
+"""
+
 
 class BaseGeometry:
     """
