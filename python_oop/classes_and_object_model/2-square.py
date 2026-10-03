@@ -11,6 +11,8 @@ class Square():
     def __init__(self, __size=0):
         if type(__size) is str:
             raise TypeError("size must be an integer")
+        elif type(__size) is float:
+            raise TypeError("size must be an integer")
         elif __size < 0:
             raise TypeError("size must be >= 0")
         else:
