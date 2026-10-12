@@ -10,5 +10,6 @@ def write_file(filename="", text=""):
     """
     with open(filename, 'r+') as file:
         text = str(text)
-        return (file.write(text))
+        output = file.write(text)
     file.close()
+    return (output)
