@@ -7,10 +7,11 @@ from websockets.asyncio.server import serve
 async def echo(websocket):
     async for message in websocket:
         await websocket.send(message)
+        print(message)
 
 
 async def main():
-    server = await serve(echo, "localhost", 8765)
+    server = await serve(echo, "127.0.0.1", 8765)
     await server.serve_forever()
 
 
